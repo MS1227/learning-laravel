@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('matt', function () {
     return view('HelloMatt');
 });
+
+Route::get('contact', function () {
+    return 'Contact us!';
+});
